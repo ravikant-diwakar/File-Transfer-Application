@@ -1,8 +1,4 @@
-class Routes {
-  constructor(app, socket) {
-    this.io = socket;
-    this.app = app;
-  }
+
 
   routesConfig() {
     this.appRoute();
